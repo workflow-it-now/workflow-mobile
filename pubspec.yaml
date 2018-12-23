@@ -1,0 +1,31 @@
+name: workflow
+description: A revolutionary app for automating business processes.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  cloud_firestore: 0.8.2+3
+  uuid: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+      - family: JosefinSans
+        fonts:
+          - asset: fonts/JosefinSans-Light.ttf
+          - asset: fonts/JosefinSans-Regular.ttf
+          - asset: fonts/JosefinSans-SemiBold.ttf
+          - asset: fonts/JosefinSans-Thin.ttf
